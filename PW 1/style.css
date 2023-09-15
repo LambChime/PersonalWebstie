@@ -1,0 +1,154 @@
+*{ 
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    color: black;
+    
+
+}
+#topCenterLogo {
+    display: block;
+    width: 187px;
+    height: 113px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+nav {
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #131313;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+}
+nav li {
+    display: inline;
+    margin-right: 70px;
+}
+nav li:last-child {
+    margin-right: 0;
+}  
+nav a {
+    
+    color: white;
+    padding: 20px;
+    background-color: #131313;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #ff0000;
+}
+.active {
+    background-color: rgb(138, 138, 138);
+}
+
+
+p {
+    line-height: 1.6;
+    text-align: center;
+}
+#aboutImage {
+    max-width: 45%; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 5px; 
+}
+
+
+
+#warp {
+    height: 100px;
+    width: 500px;
+}
+
+
+
+h2 {
+    text-align: center;
+}
+
+
+
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+}
+.gallery-item {
+    width: 48%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+#header-background {
+    width: 100;
+    height: 113;
+    background:url('https://cdn.discordapp.com/attachments/1084913720968351855/1152090828869738537/niterBackground2.png');
+    background-position: center center;
+}
+
+
+#game {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+}
+#character {
+    width: 20px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    top: 150px;
+}
+.animate{
+    animation: jump 500ms;
+}
+#block {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    position: relative;
+    top: 130px;
+    left: 480px;
+    animation: block 1s infinite linear;
+}
+@keyframes block {
+    0%{left:480px;}
+    100%{left:-40px;}
+}
+@keyframes jump {
+    0%{top: 150px;}
+    30%{top: 100px;} 
+    70%{top: 100px;} 
+    100%{top: 150px;}
+}
