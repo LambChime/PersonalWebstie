@@ -1,0 +1,38 @@
+----------------
+running program......
+----------------
+Printing all movies....
+Spiderman, rating of 3, havewatched: true
+Citizen Kane, rating of 4, havewatched: false
+Zootopia, rating of 4.5, havewatched: true
+
+You have 3 movies in total
+----------------
+A new movie is added
+----------------
+changing the status of the movie...
+----------------
+Printing all movies....
+Spiderman, rating of 3, havewatched: false
+Citizen Kane, rating of 4, havewatched: false
+Zootopia, rating of 4.5, havewatched: true
+Parasite, rating of 2, havewatched: false
+
+You have 4 movies in total
+----------------
+changing the status of the movie...
+----------------
+Printing all movies....
+Spiderman, rating of 3, havewatched: true
+Citizen Kane, rating of 4, havewatched: false
+
+Zootopia, rating of 4.5, havewatched: true
+Parasite, rating of 2, havewatched: false
+
+You have 4 movies in total
+----------------
+printing movie that has a rating higher than 3.5
+Citizen Kane has a rating of 4
+Zootopia has a rating of 4.5
+
+In total, there are 2 matches
